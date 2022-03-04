@@ -2,11 +2,11 @@
 <resources>
 
     <string name="app_name">Euler III</string>
-    <color name="ic_launcher_background">#979EBA</color>
-    <color name="background">#338a3e</color>
-    <color name="backgroundQuestion"></color>
-    <color name="backgroundAlternative"></color>
-    <string name="buttonNextEuler">Try Euler 3</string>
+    <string name="quote_questions">"Nature is written in mathematical language"</string>
+    <string name="quote_author">- Galileo Galilei</string>
+    <color name="background">#3f51b5</color>
+    <color name="questionColor">#283474</color>
+    <string name="buttonNextEuler">Try Euler 4</string>
     <string name="currentEulerLink">market://details?id=com.jorgecruces.euler3</string>
     <string name="nextEulerLink">market://details?id=com.jorgecruces.euler4</string>
 </resources>

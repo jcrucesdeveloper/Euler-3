@@ -60,7 +60,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="10dp"
-                android:text="@string/buttonNextEuler" />
+                android:background="@color/white"
+                android:text="@string/buttonNextEuler"
+                android:textColor="@color/black" />
 
             <ImageView
                 android:id="@+id/imageView4"

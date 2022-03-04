@@ -128,7 +128,7 @@ public class QuestionActivity extends AppCompatActivity
      */
     public void initializeInterstitialAd()
     {
-        interstitialAd = new InterstitialAd(this, "3063497290591741_3064583183816485");
+        interstitialAd = new InterstitialAd(this, "TESTING");
         // Create listeners for the Interstitial Ad
         InterstitialAdListener interstitialAdListener = new InterstitialAdListener() {
             @Override
@@ -446,7 +446,7 @@ public class QuestionActivity extends AppCompatActivity
     }
 
     public void goToStore() {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=com.jorgecruces.euler1"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.currentEulerLink)));
         startActivity(intent);
     }
 
