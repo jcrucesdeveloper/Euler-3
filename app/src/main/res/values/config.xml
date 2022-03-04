@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Euler III</string>
+    <color name="ic_launcher_background">#979EBA</color>
+    <color name="background">#338a3e</color>
+    <color name="backgroundQuestion"></color>
+    <color name="backgroundAlternative"></color>
+    <string name="buttonNextEuler">Try Euler 3</string>
+    <string name="currentEulerLink">market://details?id=com.jorgecruces.euler3</string>
+    <string name="nextEulerLink">market://details?id=com.jorgecruces.euler4</string>
+</resources>
+

@@ -9,9 +9,9 @@ android {
         applicationId "com.jorgecruces.euler3"
         minSdk 21
         targetSdk 31
-        versionCode 1
-        versionName "1.0"
-
+        versionCode 8
+        versionName "1.6"
+        vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -29,10 +29,18 @@ android {
 
 dependencies {
 
-    implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'com.google.android.material:material:1.5.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
-    testImplementation 'junit:junit:4.13.2'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation 'io.github.kexanie.library:MathView:0.0.6'
+
+    implementation 'com.facebook.android:audience-network-sdk:6.+'
+    implementation 'com.ironsource.adapters:facebookadapter:4.3.34'
+    implementation 'androidx.databinding:compilerCommon:3.2.0-alpha11'
+
+
+    testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
